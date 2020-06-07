@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ControlPay">
+    <test name="ControlPayTask">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TC1_LoginAndUploadProfileImage" />
+            <class name="ApiTestGet" />
+            <class name="ApiTestPost" />
+        </classes>
+    </test>
+</suite>
